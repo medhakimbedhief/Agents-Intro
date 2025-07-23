@@ -1,0 +1,82 @@
+{
+  "document_id": "VA-2024-001",
+  "document_type": "Verwaltungsakt - Baugenehmigung",
+  "total_risks": 7,
+  "risk_categories": {
+    "unerkanntes_ermessen": 2,
+    "widersprueche": 3,
+    "veraltete_rechtsprechung": 1,
+    "unvollstaendige_angaben": 1
+  },
+  "risks": [
+    {
+      "id": "risk_001",
+      "section": "§ 2 BAUVORSCHRIFTEN",
+      "risk_type": "widersprueche",
+      "severity": "hoch",
+      "description": "Höhenbeschränkung von 8,5 Meter widerspricht der aktuellen Bauordnung von 2023, die 10 Meter vorsieht",
+      "line_reference": "ANMERKUNG nach § 2",
+      "suggestion": "Höhenbeschränkung auf 10 Meter anpassen oder Begründung für Abweichung hinzufügen"
+    },
+    {
+      "id": "risk_002",
+      "section": "§ 4 FRISTEN",
+      "risk_type": "widersprueche",
+      "severity": "mittel",
+      "description": "Gültigkeitsfrist bis 31. Dezember 2025 ist ungewöhnlich kurz und könnte gegen Verwaltungsverfahrensgesetz verstoßen",
+      "line_reference": "WARNUNG nach § 4",
+      "suggestion": "Frist auf mindestens 2 Jahre verlängern oder besondere Begründung für kurze Frist angeben"
+    },
+    {
+      "id": "risk_003",
+      "section": "§ 5 AUSSCHLUSS DER SOFORTIGEN VOLLZIEHBARKEIT",
+      "risk_type": "unerkanntes_ermessen",
+      "severity": "hoch",
+      "description": "Ausschluss der aufschiebenden Wirkung ist nicht begründet und könnte willkürlich erscheinen",
+      "line_reference": "ANMERKUNG nach § 5",
+      "suggestion": "Begründung für Ausschluss der aufschiebenden Wirkung hinzufügen oder Ausschluss entfernen"
+    },
+    {
+      "id": "risk_004",
+      "section": "§ 7 BESONDERE AUFLAGEN",
+      "risk_type": "unerkanntes_ermessen",
+      "severity": "mittel",
+      "description": "Auflage zur Regenwasserversickerung ist nicht gesetzlich vorgeschrieben und könnte als unzulässige Erschwerung angesehen werden",
+      "line_reference": "ANMERKUNG nach § 7",
+      "suggestion": "Auflage entfernen oder gesetzliche Grundlage für Auflage angeben"
+    },
+    {
+      "id": "risk_005",
+      "section": "§ 8 KOSTEN",
+      "risk_type": "widersprueche",
+      "severity": "mittel",
+      "description": "Gebührenhöhe von 2.500 Euro entspricht nicht der aktuellen Gebührenordnung, die 1.800 Euro vorsieht",
+      "line_reference": "ANMERKUNG nach § 8",
+      "suggestion": "Gebühren auf 1.800 Euro korrigieren oder Begründung für höhere Gebühren angeben"
+    },
+    {
+      "id": "risk_006",
+      "section": "ANHANG: BAUPLAN UND TECHNISCHE ZEICHNUNGEN",
+      "risk_type": "unvollstaendige_angaben",
+      "severity": "hoch",
+      "description": "Baupläne entsprechen nicht vollständig den Anforderungen der aktuellen Bauordnung - fehlende Angaben zur Barrierefreiheit und Energieeffizienz",
+      "line_reference": "Hinweis am Ende des Dokuments",
+      "suggestion": "Baupläne um Angaben zur Barrierefreiheit und Energieeffizienz ergänzen"
+    },
+    {
+      "id": "risk_007",
+      "section": "§ 6 RECHTSMITTELBELEHRUNG",
+      "risk_type": "veraltete_rechtsprechung",
+      "severity": "niedrig",
+      "description": "Widerspruchsfrist von einem Monat könnte veraltet sein - neuere Rechtsprechung könnte längere Fristen vorschreiben",
+      "line_reference": "§ 6 gesamter Abschnitt",
+      "suggestion": "Aktuelle Rechtsprechung zur Widerspruchsfrist prüfen und ggf. anpassen"
+    }
+  ],
+  "metadata": {
+    "created": "2024-12-15",
+    "document_language": "de",
+    "legal_domain": "Bauverwaltungsrecht",
+    "risk_detection_method": "manual_annotation"
+  }
+}
